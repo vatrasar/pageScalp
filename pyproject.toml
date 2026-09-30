@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pagescalp"
+version = "1.0.0"
+description = "High-speed documentation crawler & Markdown generator for Google NotebookLM"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "httpx>=0.27.0",
+    "beautifulsoup4>=4.12.0",
+    "lxml>=5.0.0",
+    "trafilatura>=1.12.0",
+    "markdownify>=0.13.0",
+    "rich>=13.7.0",
+    "questionary>=2.0.0",
+]
+
+[project.scripts]
+pagescalp = "Src.main:main"
+
+[tool.pytest.ini_options]
+asyncio_mode = "strict"
+testpaths = ["tests"]
+pythonpath = ["."]

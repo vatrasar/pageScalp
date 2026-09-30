@@ -1,0 +1,68 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Unit test & test coverage
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+htmlcov/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.directory
+
+# Operating System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# PageScalp outputs (preserve README.md)
+output/
+*_documentation*.md
+*_part*.md
+scraped_documentation*.md
